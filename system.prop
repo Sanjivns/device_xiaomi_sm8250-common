@@ -75,6 +75,7 @@ ro.vendor.perf.scroll_opt=true
 
 # Radio
 persist.vendor.radio.report_codec=1
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 
 # Radio VoNR
 persist.radio.is_vonr_enabled_0=true
