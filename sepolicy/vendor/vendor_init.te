@@ -12,3 +12,5 @@ allow vendor_init block_device:lnk_file setattr;
 
 # schedtune
 allow vendor_init device:file { create read write };
+
+allow vendor_init vendor_fingerprint_persist_data:dir { getattr open read };
