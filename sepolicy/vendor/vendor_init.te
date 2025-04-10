@@ -10,3 +10,6 @@ allow vendor_init {
 }:file w_file_perms;
 
 allow vendor_init block_device:lnk_file setattr;
+
+# schedtune
+allow vendor_init device:file { create read write };
