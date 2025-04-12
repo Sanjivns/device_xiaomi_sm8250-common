@@ -1,5 +1,9 @@
 ~on boot
 
+    # CPUSets
+     setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5
+     setprop dalvik.vm.dex2oat-threads 6
+
      chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
      chmod 0660 /sys/class/drm/sde-crtc-0/measured_fps
  
